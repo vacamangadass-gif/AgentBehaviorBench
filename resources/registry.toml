@@ -558,3 +558,13 @@ framework = "langgraph"
 source = "https://github.com/Y-Research-SBU/TimeSeriesScientist"
 case = 1
 step = 1
+
+[[agents]]
+agent_id = "omniwriter"
+path = "resources/agents/57-omniwriter"
+enabled = false
+status = "adapting"
+framework = "langgraph"
+source = "https://github.com/twanew/OmniWriter"
+case = 1
+step = 1
